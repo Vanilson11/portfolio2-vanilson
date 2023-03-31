@@ -40,7 +40,7 @@ body{
 }
 
 .apresentacao > img{
-    width: 41%;
+    width: 47%;
     border-radius: 7px;
 }
 
@@ -51,7 +51,7 @@ body{
 }
 
 .apresentacao{
-    padding: 7% 9%;
+    padding: 7% 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,9 +147,9 @@ body{
 }
 
 
-@media (max-width: 1200px){
+@media (min-width: 418px) and (max-width: 1200px){
     .cabecalho{
-        padding: 7%;
+        padding: 6%;
     }
 
     .cabecalho__menu{
@@ -163,6 +163,14 @@ body{
 
     .apresentacao__conteudo{
         width: auto;
+    }
+
+    .apresentacao__link__navegacao{
+        width: 42%;
+    }
+
+    .apresentacao > img{
+        width: 57%;
     }
     
 }
